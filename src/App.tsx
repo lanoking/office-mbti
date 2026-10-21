@@ -149,18 +149,7 @@ export default function App() {
       >
         {page}
         {!inTest && (
-          <footer className="mt-8 text-center text-[12px] text-faint">
-            만든 사람 · 환경재단 jw
-            <span aria-hidden> · </span>
-            <a
-              href="https://github.com/lanoking/office-mbti"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline decoration-line underline-offset-2 hover:text-sub"
-            >
-              GitHub
-            </a>
-          </footer>
+<footer className="mt-8 text-center text-[12px] text-faint">환경재단 jw</footer>
         )}
       </main>
     </div>
